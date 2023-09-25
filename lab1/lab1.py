@@ -46,7 +46,9 @@ def get_roots(a, b, c):
 
 
 def main():
-    a = get_coef(1, 'Введите коэффициент А:')
+    a = 0
+    while(a==0):
+        a = get_coef(1, 'Введите коэффициент А:')
     b = get_coef(2, 'Введите коэффициент B:')
     c = get_coef(3, 'Введите коэффициент C:')
     roots = get_roots(a,b,c)

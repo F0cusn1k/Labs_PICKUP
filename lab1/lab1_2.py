@@ -11,6 +11,8 @@ class Solver:
                         mass[i] = float(input())
                     except:
                         print("Ошибка")
+            if mass[0] == 0:
+                mass[0] = None
             if(mass[0]!=None and mass[1]!=None and mass[2]!=None):
                 break
         self.a = mass[0]
