@@ -13,7 +13,7 @@ with open("data_light.json") as f:
     data = json.load(f)
 '''
 
-file = codecs.open( "data_light.json", "r", "utf-8" )
+file = codecs.open("data_light.json", "r", "utf-8")
 data = json.load(file)
 file.close()
 
