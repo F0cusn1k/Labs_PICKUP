@@ -13,4 +13,7 @@ class Square(Rectangle):
     def return_name(self):
         return self.name
     def repr(self):
-        return "Тип фигуры - {}, Длина стороны - {}, Цвет - {}, Площадь - {}".format(self.return_name(), self.L, self.my_color.color, self.area())
+        return "Тип фигуры - {}, Длина стороны - {}, Цвет - {}, Площадь - {}".format(self.return_name(),
+                                                                                     self.L,
+                                                                                     self.my_color.color,
+                                                                                     self.area())

@@ -1,9 +1,4 @@
-def m(a, b):
-    return int(a!=b)
-
 def lev(str1, str2):
-    #str1 = input().strip()
-    #str2 = input().strip()
     L = len(str1) + 1
     L2 = len(str2) + 1
     mass = [0]*L2

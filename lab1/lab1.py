@@ -3,16 +3,6 @@ import math
 
 #Ф-я вычисления коэффициентов
 def get_coef(index, prompt):
-    '''
-    Читаем коэффициент из командной строки или вводим с клавиатуры
-
-    Args:
-        index (int): Номер параметра в командной строке
-        prompt (str): Приглашение для ввода коэффицента
-
-    Returns:
-        float: Коэффициент квадратного уравнения
-    '''
     if (index < len(sys.argv)):
         try:
             return float(sys.argv[index])

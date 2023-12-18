@@ -13,4 +13,8 @@ class Rectangle(Figure):
     def return_name(self):
         return self.name
     def repr(self):
-        return "Тип фигуры - {}, Длина - {}, Ширина - {}, Цвет - {}, Площадь - {}".format(self.return_name(), self.length, self.width, self.my_color.color, self.area())
+        return "Тип фигуры - {}, Длина - {}, Ширина - {}, Цвет - {}, Площадь - {}".format(self.return_name(),
+                                                                                          self.length,
+                                                                                          self.width,
+                                                                                          self.my_color.color,
+                                                                                          self.area())

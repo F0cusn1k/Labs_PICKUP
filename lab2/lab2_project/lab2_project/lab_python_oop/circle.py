@@ -13,4 +13,7 @@ class Circle(Figure):
     def return_name(self):
         return self.name
     def repr(self):
-        return "Тип фигуры - {}, Радиус - {}, Цвет - {}, Площадь - {}".format(self.return_name(), self.radius, self.my_color.color, self.area())
+        return "Тип фигуры - {}, Радиус - {}, Цвет - {}, Площадь - {}".format(self.return_name(),
+                                                                              self.radius,
+                                                                              self.my_color.color,
+                                                                              self.area())
